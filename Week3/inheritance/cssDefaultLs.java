@@ -1,44 +1,43 @@
 import java.util.Scanner;
 
-//THIS IS THE SUPER-CLASS
+// Superclass defining default CSS settings
+public class CssDefaultLs {
 
-public class cssDefaultLs
-{
-    
-    private static void superClass()
-    {
-        System.out.printf("\t***I am the Super Class***");
-    	
-   
-    }//private static void superClass()
+    // Private static method in the superclass
+    private static void superClass() {
+        System.out.println("\t***I am the Super Class***");
+    }
 
+    // Public method to define font CSS settings
+    public void fontCSS() {
+        superClass(); // Call superclass method
+        String fontType = "Times Roman";
+        String fontSize = "12";
 
-    public void fontCSS()
+        // Output font CSS settings
+        System.out.printf("\tFont Type = %s\n", fontType);
+        System.out.printf("\tFont Size = %s\n", fontSize);
+    }
+
+    public void colorCSS()
     {
         //call the superClass() method
-        superClass();
-	String fontType = "Times Roman"; //create data fields
-	String fontSize = "12";		 //create data fields
+        superClass();    	
+        String foreGoundColor = "black"; //create data fields
+        String backGoundColor = "white"; //create data fields
+         
+        System.out.println( "\tForeground Color = " +
+                             foreGoundColor );
+         
+        System.out.println( "\tBackground Color = " +
+                             backGoundColor );
+           
+    }//end public static void colorCSS()
 
-  
-        System.out.printf("\tFont Type = %s\n" + fontType);
-	System.out.printf("\tFont Size = %s\n" + fontSize);
-    
-    }//end public static void fontCSS()
-
-
-    //This method allows us to pause the program at any time
-    public static void pause()
-    {
-        //creates object to read the keyboard
-	Scanner kb = new Scanner(System.in);
-
-	System.out.printf("\n\t\t\tNice to see you again,\tpress any key to continue -> ");
-
-	kb.nextLine(); //this command waits for keyboard input
-
-    }//public static void pause()
-
-}//end public class cssDefaults
-
-
+    // Static method to pause the program
+    public static void pause() {
+        Scanner kb = new Scanner(System.in);
+        System.out.printf("\n\t\t\tNice to see you again, press Enter to continue -> ");
+        kb.nextLine(); // Wait for user input
+    }
+}
