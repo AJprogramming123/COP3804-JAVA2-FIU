@@ -2,7 +2,7 @@ public interface jaimesAinterface
 {
     public String personPantherID = "6289563";
     public String personLastName = "Jaimes";
-    public String personFirstName = "Andres";
+    public String personFirstName ="Andres";
 
     public void thePersonSchool(String person);
     public void thePersonPantherID(String person);
