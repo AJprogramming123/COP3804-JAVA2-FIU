@@ -1,24 +1,29 @@
 import java.util.Scanner;
 
-// Superclass defining default CSS settings
-public class CssDefaultLs {
 
-    // Private static method in the superclass
-    private static void superClass() {
-        System.out.println("\t***I am the Super Class***");
-    }
+//THIS IS THE SUPER-CLASS
+public class cssDefaultLs
+{
 
-    // Public method to define font CSS settings
-    public void fontCSS() {
-        superClass(); // Call superclass method
-        String fontType = "Times Roman";
-        String fontSize = "12";
+    private static void superClass()
+    {
+        System.out.println( "\t***I am the Super Class***" );
+    }//private static void superClass()
+	
+    
+    public void fontCSS()
+    {
+        //call the superClass() method
+        superClass();  
+        String fontType = "Times Roman"; //create data fields
+        String fontSize = "12";          //create data fields  
+    	
+        System.out.println( "\tFont Type = " + fontType );
+        System.out.println( "\tFont Size = " + fontSize );
 
-        // Output font CSS settings
-        System.out.printf("\tFont Type = %s\n", fontType);
-        System.out.printf("\tFont Size = %s\n", fontSize);
-    }
+    }//end public static void fontCSS()
 
+    
     public void colorCSS()
     {
         //call the superClass() method
@@ -33,11 +38,18 @@ public class CssDefaultLs {
                              backGoundColor );
            
     }//end public static void colorCSS()
+       
+        
+    //This method allows us to pause the program at any time  
+    public static void pause()
+    {
+        //creates object to read the keyboard
+        Scanner kb = new Scanner( System.in );
 
-    // Static method to pause the program
-    public static void pause() {
-        Scanner kb = new Scanner(System.in);
-        System.out.printf("\n\t\t\tNice to see you again, press Enter to continue -> ");
-        kb.nextLine(); // Wait for user input
-    }
-}
+        System.out.print( "\n\t\t\tNice to see you again, " +
+                          "       press any key to continue -> " );
+
+        kb.nextLine(); //this command waits for keyboard input
+    }//public static void pause()
+    
+}//end public class cssDefaults 
