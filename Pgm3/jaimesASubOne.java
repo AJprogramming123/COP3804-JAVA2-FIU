@@ -2,7 +2,7 @@
  Author    : Andres Jaimes
  Course    : COP 3804
  Professor : Michael Robinson 
- Program   : jaimesASubOne
+ Program   : Pgm3
              Program Purpose/Description 
              {This is the first sub-class, it is to change the original displayMethod}
 
@@ -19,7 +19,7 @@ public class jaimesASubOne extends jaimesASuperPgm3
 {
     public void displayMethod()
     {
-        System.out.printf("I am sub-class One.\n");
+        System.out.printf("I am sub-class One\n");
 
     }//end of public void displayMethod()
 

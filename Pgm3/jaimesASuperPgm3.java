@@ -2,7 +2,7 @@
  Author    : Andres Jaimes
  Course    : COP 3804
  Professor : Michael Robinson 
- Program   : jaimesASuperPgm3
+ Program   : Pgm3
              Program Purpose/Description 
              {This is the super-class of the program, this is where the default values are and the sub-class inherit these methods}
 

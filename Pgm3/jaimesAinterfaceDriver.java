@@ -2,7 +2,7 @@
  Author    : Andres Jaimes
  Course    : COP 3804
  Professor : Michael Robinson 
- Program   : jaimesAinterfaceDriver
+ Program   : Pgm3
              Program Purpose/Description 
              {This is the driver of the interface, meaning that this is where the blueprint will be placed and used}
 

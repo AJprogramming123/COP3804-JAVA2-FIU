@@ -147,7 +147,6 @@ class setStudentID implements studentIDinterface
         //passing our own data, except for the schoolID that 
         //we will get from the interface, see studentSchool()
         //method
-        MySetStudentID.studentSchool();
         MySetStudentID.studentID( 1234567 );
         MySetStudentID.studentLastName( "Hamilton" );
         MySetStudentID.studentFirstName( "Joseph" );

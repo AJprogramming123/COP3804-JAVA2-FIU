@@ -2,7 +2,7 @@
  Author    : Andres Jaimes
  Course    : COP 3804
  Professor : Michael Robinson 
- Program   : jaimesADriverPgm3
+ Program   : Pgm3
              Program Purpose/Description 
              {This is the driver of the super-class and sub-class practices, meaning that this is where the main method would be}
 

@@ -2,7 +2,7 @@
  Author    : Andres Jaimes
  Course    : COP 3804
  Professor : Michael Robinson 
- Program   : jaimesASubTwo
+ Program   : Pgm3
              Program Purpose/Description 
              {This is the second sub-class, it changes methodTwo}
 

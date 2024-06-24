@@ -2,7 +2,7 @@
  Author    : Andres Jaimes
  Course    : COP 3804
  Professor : Michael Robinson 
- Program   : jaimesAinterface
+ Program   : Pgm3
              Program Purpose/Description 
              {This is where the interface is, basically a blueprint toward what methods should be placed in the class that will implement the interface}
 
