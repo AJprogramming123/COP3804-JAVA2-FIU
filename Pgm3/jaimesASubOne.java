@@ -1,3 +1,20 @@
+/*********************************************************************
+ Author    : Andres Jaimes
+ Course    : COP 3804
+ Professor : Michael Robinson 
+ Program   : jaimesASubOne
+             Program Purpose/Description 
+             {This is the first sub-class, it is to change the original displayMethod}
+
+ Due Date  : 06/25/24
+
+
+ Certification: 
+ I hereby certify that this work is my own and none of it is the work of any other person. 
+
+ ..........{ Andres Jaimes }..........
+*********************************************************************/
+
 public class jaimesASubOne extends jaimesASuperPgm3
 {
     public void displayMethod()

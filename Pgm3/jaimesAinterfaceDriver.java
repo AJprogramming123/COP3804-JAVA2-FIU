@@ -1,3 +1,19 @@
+/*********************************************************************
+ Author    : Andres Jaimes
+ Course    : COP 3804
+ Professor : Michael Robinson 
+ Program   : jaimesAinterfaceDriver
+             Program Purpose/Description 
+             {This is the driver of the interface, meaning that this is where the blueprint will be placed and used}
+
+ Due Date  : 06/25/24
+
+
+ Certification: 
+ I hereby certify that this work is my own and none of it is the work of any other person. 
+
+ ..........{ Andres Jaimes }..........
+*********************************************************************/
 class jaimesAinterfaceDriver implements jaimesAinterface
 {
     public String school = "FIU";

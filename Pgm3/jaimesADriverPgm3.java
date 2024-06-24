@@ -1,3 +1,21 @@
+/*********************************************************************
+ Author    : Andres Jaimes
+ Course    : COP 3804
+ Professor : Michael Robinson 
+ Program   : jaimesADriverPgm3
+             Program Purpose/Description 
+             {This is the driver of the super-class and sub-class practices, meaning that this is where the main method would be}
+
+ Due Date  : 06/25/24
+
+
+ Certification: 
+ I hereby certify that this work is my own and none of it is the work of any other person. 
+
+ ..........{ Andres Jaimes }..........
+*********************************************************************/
+
+
 public class jaimesADriverPgm3
 {
     public static void main(String[] args)
