@@ -15,7 +15,6 @@
  ..........{ Andres Jaimes }..........
 *********************************************************************/
 
-
 public class jaimesADriverPgm3
 {
     public static void main(String[] args)
@@ -27,8 +26,8 @@ public class jaimesADriverPgm3
         System.out.printf("\n");
 
         question1.callMethodOne(10);
-	    question1.methodTwo("Hello", "World");
-	    question1.methodThree();
+        question1.methodTwo("Hello", "World");
+        question1.methodThree();
 
         System.out.printf("\n");
 
@@ -38,9 +37,13 @@ public class jaimesADriverPgm3
 
         System.out.printf("\n");
 
-       question3.methodTwo("Apple", "Syrup");
-       question3.methodThree();
+        question3.methodTwo("Apple", "Syrup");
+        question3.methodThree();
 
     }//end of public static void main(String[] args)
 
 }//end of public class jaimesADriverPgm3
+
+
+
+

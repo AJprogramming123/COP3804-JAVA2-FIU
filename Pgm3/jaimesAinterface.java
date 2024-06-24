@@ -26,5 +26,4 @@ public interface jaimesAinterface
     public void thePersonLastName(String person);
     public void thePersonFirstName(String person);
 
-
 }//end of public interface jaimesAinterface

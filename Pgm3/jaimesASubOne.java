@@ -22,4 +22,4 @@ public class jaimesASubOne extends jaimesASuperPgm3
         System.out.printf("I am sub-class One.\n");
     }//end of public void displayMethod()
 
-}//end of public class jaimesASubOne extends jaimesASuperPgm3
+}//end of public class jaimesASubOne extends jaimesASubOne
