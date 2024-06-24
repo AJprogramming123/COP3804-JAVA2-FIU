@@ -17,9 +17,9 @@
 
 public interface jaimesAinterface
 {
-    public String personPantherID = "6289563";
-    public String personLastName = "Jaimes";
-    public String personFirstName ="Andres";
+    public String personPantherID = "";
+    public String personLastName = "";
+    public String personFirstName = "";
 
     public void thePersonSchool(String person);
     public void thePersonPantherID(String person);
