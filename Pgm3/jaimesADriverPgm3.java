@@ -23,6 +23,6 @@ public class jaimesADriverPgm3
        question3.methodTwo("Apple", "Syrup");
        question3.methodThree();
 
-    }
+    }//end of public static void main(String[] args)
 
-}
+}//end of public class jaimesADriverPgm3

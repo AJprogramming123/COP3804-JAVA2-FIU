@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 //We can modify the ArrayList's size at any time, and we can add or delete indexes from any location.
 
-public class ArrayList_Learning
+public class ArrayList
 {	
     static String lines = "---------------------";
 
