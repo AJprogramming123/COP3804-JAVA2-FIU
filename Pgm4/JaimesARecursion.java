@@ -15,9 +15,10 @@ public class JaimesARecursion {
         }
         else
         {
+
             long result = n * factorial(n - 1);
 
-            System.out.printf("Returning step -> %d: %d! = %d * %d! = %d * %d = %d%n", n, n, n, n - 1, n, result / n, result);
+            System.out.printf("\n\t\t  Dec\t\t\tTotal\n%d: %d! = %d * %d! = %d * %d\t\t = \t%d%n", n, n, n, n - 1, n, result / n, result);
             return result;
         }
 
