@@ -1,8 +1,8 @@
 /*********************************************************************
- Author    : Your Name 
- Course    : Java section. Example Java-1, Java-2, Java-3, or Java-4
+ Author    : Andres Jaimes 
+ Course    : COP 3804
  Professor : Michael Robinson 
- Program # : Program Purpose/Description 
+ Program # : Pgm4
              { This is the bubble sort portion of the project assignment, it isn't associated with any other class it's just to show how bubble sorting works. The goal was to sort my name in alphabetical order }
 
  Due Date  : 07/16/2024
@@ -35,16 +35,17 @@ public class JaimesABubbleSort
         }
 
         displayName(myName);
-    }
+    }//end of public static void bubbleSort(String[] myName)
 
 
-    public static void displayName(String array[])
+    public static void displayName(String[] array)
     {
         for(String element : array)
         {
         System.out.printf("%s ", element);
         }
-    }
+
+    }//end of public static void displayName(String array[])
 
 
     public static void main(String[] args)
@@ -59,6 +60,6 @@ public class JaimesABubbleSort
         System.out.printf("After bubble sort: ");
         bubbleSort(myName);
 
+    }//end of public static void main(String[] args)
 
-    }
-}
+}//end of public class JaimesABubbleSort
