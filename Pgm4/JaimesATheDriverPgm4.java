@@ -1,4 +1,17 @@
-package Pgm4;
+/*********************************************************************
+ Author    : Andres Jaimes 
+ Course    : COP 3804
+ Professor : Michael Robinson 
+ Program # : Pgm4
+             { This is the driver of the class, meaning every sub class or inherited sub-class will be called from here. I'm using certain ways to include private methods to show I implemented them}
+
+ Due Date  : 07/16/2024
+
+ Certification: 
+ I hereby certify that this work is my own and none of it is the work of any other person. 
+
+ ..........{ Andres Jaimes }..........
+*********************************************************************/
 
 public class JaimesATheDriverPgm4 
 {
@@ -40,5 +53,6 @@ public class JaimesATheDriverPgm4
         overload.method2();
         overload.method3();
 
-    }
-}
+    }//end of public static void main(String[] args)
+
+}//end of public class JaimesATheDriverPgm4
